@@ -693,3 +693,221 @@ body {
     transform: translate(-50%, -50%) scale(1);
     border-radius: 50px;
 }
+
+
+@media screen and (max-width:600px) {
+
+
+    /* .navbar */
+
+
+    .navbar {
+        width: 500px;
+        height: 40px;
+        padding: 20px;
+        margin: 0px;
+        font-size: 20px;
+    }
+
+
+
+    /* home page */
+
+    .home-page {
+        width: 500px;
+        height: 550px;
+        /* padding: 10; */
+        /* padding: 10px; */
+        margin: 50px auto;
+        color: aliceblue;
+        /* background-color: red; */
+
+    }
+
+    .image {
+        width: 525px;
+        height: 620px;
+        background-image: url('../images/image4.jpg');
+        background-size: cover;
+        opacity: 1;
+
+    }
+
+    .data-home-page {
+        width: auto;
+        text-align: center;
+        position: relative;
+        top: -700px;
+    }
+
+
+    .data-home-page p {
+        font-size: 20px;
+    }
+
+
+
+
+
+    /* About page */
+
+
+    .about-page {
+        width: 500px;
+        margin: 120px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item1 {
+        width: 500px;
+    }
+
+    .item2 {
+        width: 500px;
+        text-align: center;
+    }
+
+    .item2 h2 {
+        position: relative;
+        top: 0px;
+        font-size: 25px;
+    }
+
+
+    .item3 {
+        width: 500px;
+    }
+
+    .item3 p {
+        position: relative;
+        top: 0px;
+        left: 15px;
+        font-size: 25px;
+    }
+
+    .item3 h2 {
+        position: relative;
+        top: 0px;
+        left: 15px;
+        font-size: 25px;
+    }
+
+    .item4 {
+        width: 500px;
+    }
+
+    .item4 h2 {
+        position: relative;
+        top: 0px;
+    }
+
+
+    .item5 {
+        width: 500px;
+    }
+
+    .item5 h2 {
+        margin-top: 10px;
+    }
+
+    .item6 {
+        width: 500px;
+    }
+
+    .item6 h2 {
+
+        position: relative;
+        top: 0px;
+        font-size: 25px;
+        word-spacing: 2px;
+    }
+
+
+
+    /* projects */
+
+
+
+
+    .projects {
+        width: 500px;
+        height: 1000px;
+
+        text-align: center;
+        margin: 50px 0px;
+    }
+
+    .cards {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 50px 70px;
+
+    }
+
+
+
+    /* approach section */
+
+
+
+    .skills {
+        width: 500px;
+        margin: 530px auto;
+        text-align: center;
+    }
+
+
+
+
+    .mycards {
+        width: 430px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 40px auto;
+    }
+
+    .flipcard {
+        width: 450px;
+    }
+
+    .flipcardfront h1 {
+        position: relative;
+        left: 150px;
+    }
+
+
+    /* contact-page */
+
+
+    .contact-page {
+        width: 500px;
+        height: 510px;
+        margin: 0px;
+        position: relative;
+        top: 650px;
+    }
+
+    .upperpart {
+        position: relative;
+        left: 20px;
+    }
+
+
+
+    .lowerpart p {
+        float: left;
+        font-size: 17px;
+        position: relative;
+        left: 0px;
+    }
+
+    .lowerpart div {
+        position: relative;
+        right: 0px;
+    }
+
+
+}

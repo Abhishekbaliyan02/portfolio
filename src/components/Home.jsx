@@ -16,7 +16,7 @@ export const Home = () => {
         </p>
         <button class="neon-button">
           <a href={resume} target="_blank">
-            Check my CV
+            Download CV
           </a>
         </button>
       </div>

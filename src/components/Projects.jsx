@@ -76,7 +76,7 @@ export const Projects = () => {
             Check Live Site <i class="fa-brands fa-telegram"></i>
           </a>
         </div>
-        <div className="project-card">
+        {/* <div className="project-card">
           <img src={quizimage} alt="" />
           <h2>Quiz Game</h2>
           <p>
@@ -99,7 +99,7 @@ export const Projects = () => {
           <a href="">
             Check Live Site <i class="fa-brands fa-telegram"></i>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
